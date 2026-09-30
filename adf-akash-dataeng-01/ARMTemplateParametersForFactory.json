@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-akash-dataeng-01"
+		},
+		"LS_AzureSQL_DataEng_01_password": {
+			"value": ""
+		},
+		"ls_datalake_01_accountKey": {
+			"value": ""
+		},
+		"ls_filesystem_onprem_01_password": {
+			"value": ""
+		},
+		"LS_AzureSQL_DataEng_01_properties_typeProperties_server": {
+			"value": "sql-akash-dataeng-01.database.windows.net"
+		},
+		"LS_AzureSQL_DataEng_01_properties_typeProperties_database": {
+			"value": "sqldb-akash-dataeng-01"
+		},
+		"LS_AzureSQL_DataEng_01_properties_typeProperties_userName": {
+			"value": "akadmin"
+		},
+		"LS_HTTP_API_Source_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/anshlambagit/"
+		},
+		"ls_datalake_01_properties_typeProperties_url": {
+			"value": "https://stadlsdataeng01.dfs.core.windows.net/"
+		},
+		"ls_filesystem_onprem_01_properties_typeProperties_host": {
+			"value": "C:\\Data_eng_Project"
+		},
+		"ls_filesystem_onprem_01_properties_typeProperties_userId": {
+			"value": "desktop-fmc4lmu\\akash"
+		}
+	}
+}
