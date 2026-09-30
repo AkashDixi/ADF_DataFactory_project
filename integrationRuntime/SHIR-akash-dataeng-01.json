@@ -1,0 +1,7 @@
+{
+	"name": "SHIR-akash-dataeng-01",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "Self-hosted Integration Runtime for on-premises data connectivity and data movement to Azure Data Factory."
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"name": "ls_filesystem_onprem_01",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "On-premises file system linked service for connecting Azure Data Factory to local file-based data sources.",
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\Data_eng_Project",
+			"userId": "desktop-fmc4lmu\\akash",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJlYWMxNTU2OC02N2M1LTQ5YWUtYWQyYy1iODE4ZDM4YTY1YTciLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SHIR-akash-dataeng-01",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

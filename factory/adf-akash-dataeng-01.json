@@ -1,0 +1,15 @@
+{
+	"name": "adf-akash-dataeng-01",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "53c0f2a6-d969-49e5-9606-f3b86682032a",
+		"tenantId": "5d1057b2-e1d2-419f-ac29-1eb25feb4b36"
+	}
+}

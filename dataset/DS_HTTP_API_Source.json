@@ -1,0 +1,19 @@
+{
+	"name": "DS_HTTP_API_Source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_HTTP_API_Source",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "AnshLambaYoutube/refs/heads/main/ADF_Project/DimAirport.json"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

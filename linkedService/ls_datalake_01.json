@@ -1,0 +1,13 @@
+{
+	"name": "ls_datalake_01",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Linked service to connect ADF to ADLS Gen2 for data storage and processing.",
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://stadlsdataeng01.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEU3MTg3MkE5LTIyRTItNDdGRS05MDJGLUUxN0M4NjgyMzM3MV84YTdhMDZjMS1iMmUzLTQ3MTAtYTE2OC01ZDQ4ZTA4ZGJkNGIiDQp9"
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"name": "LS_HTTP_API_Source",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Provides the connection configuration for the HTTP API source used to retrieve data through Azure Data Factory.",
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/anshlambagit/",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
